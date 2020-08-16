@@ -21,7 +21,7 @@ function setup() {
     divisions.push(new Divisions(k,height-divisionHeight/2,10,divisionHeight));
   }
   if(frameCount%60===0){
-    particle.push(new particle(random(width/2-10,width/2+10),10,10));
+  particle.push(new Particle(random(width/2-10,width/2+10),10,10));
   }
   
 }
